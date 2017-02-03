@@ -1,0 +1,15 @@
+[Unit]
+Description=instapaper-sender
+
+[Service]
+ExecStart=/srv/instapaper-sender/instapaper-sender
+
+WorkingDirectory=/srv/instapaper-sender
+
+User=nobody
+Group=nogroup
+
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -1,5 +1,5 @@
 name:                instapaper-sender
-version:             0.1.0.1
+version:             0.1.0.2
 synopsis:            Basic HTTP gateway to save articles to Instapaper
 description:         Please see README.md
 homepage:            https://github.com/spinda/instapaper-sender#readme
@@ -11,6 +11,8 @@ copyright:           2017 Michael Smith
 category:            Web
 extra-source-files:
 - README.md
+- instapaper-sender.service
+- instapaper-sender.nginx
 
 dependencies:
   - base >= 4.7 && < 5

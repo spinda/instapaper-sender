@@ -3,7 +3,7 @@
 -- see: https://github.com/sol/hpack
 
 name:           instapaper-sender
-version:        0.1.0.1
+version:        0.1.0.2
 synopsis:       Basic HTTP gateway to save articles to Instapaper
 description:    Please see README.md
 category:       Web
@@ -17,6 +17,8 @@ build-type:     Simple
 cabal-version:  >= 1.10
 
 extra-source-files:
+    instapaper-sender.nginx
+    instapaper-sender.service
     README.md
 
 executable instapaper-sender
