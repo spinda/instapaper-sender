@@ -28,7 +28,7 @@ Copy the included `config.example.json` and fill out the settings:
     "port": <port for the HTTP server to listen on>
   },
   "smtp": {
-    "host": "<SMTP host to connect to>"",
+    "host": "<SMTP host to connect to>",
     "port": <SMTP port to connect on>,
     "username": "<SMTP username to authenticate with>",
     "password": "<SMTP password to authenticate with>",
