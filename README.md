@@ -1,6 +1,9 @@
 # instapaper-sender
 
-> Basic HTTP gateway to save articles to Instapaper
+*Basic HTTP gateway to save articles to Instapaper*
+
+[![Hackage](https://img.shields.io/hackage/v/instapaper-sender.svg)](https://hackage.haskell.org/package/instapaper-sender)
+[![Hackage-Deps](https://img.shields.io/hackage-deps/v/instapaper-sender.svg)](http://packdeps.haskellers.com/feed?needle=instapaper-sender)
 
 ## Intro
 
@@ -18,7 +21,7 @@ Install [Stack](http://haskellstack.org/) and run `stack build`.
 ## Usage
 
 Obtain an email account on a service that supports SMTP with SSL (for example,
-[Yandex Mail](mail.yandex.com)).
+[Yandex Mail](https://mail.yandex.com)).
 
 Copy the included `config.example.json` and fill out the settings:
 
@@ -54,8 +57,8 @@ be forwarded requests from a reverse proxy setup like
 IP address in the HTTP headers when producing log output.
 
 Once you're all set up, navigate to
-`https://<your instapaper-server subdomain>/<url>` to add `<url>` to send
-`<url>` to your reading list.
+`http://<your instapaper-sender address>/<url>` to send `<url>` to your reading
+list.
 
 ## License
 

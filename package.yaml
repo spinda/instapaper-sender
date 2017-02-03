@@ -1,9 +1,9 @@
 name:                instapaper-sender
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Basic HTTP gateway to save articles to Instapaper
 description:         Please see README.md
 homepage:            https://github.com/spinda/instapaper-sender#readme
-license:             AGPL-3.0
+license:             AGPL-3
 license-file:        COPYING
 author:              Michael Smith
 maintainer:          michael@spinda.net
