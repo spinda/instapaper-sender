@@ -59,7 +59,6 @@ Once you're all set up, navigate to
 
 ## License
 
-instapaper-sender: basic web -&gt; Instapaper gateway
 Copyright (C) 2017 Michael Smith &lt;michael@spinda.net&gt;
 
 This program is free software: you can redistribute it and/or modify
