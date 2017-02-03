@@ -22,7 +22,7 @@ Obtain an email account on a service that supports SMTP with SSL (for example,
 
 Copy the included `config.example.json` and fill out the settings:
 
-```json
+```
 {
   "http": {
     "port": <port for the HTTP server to listen on>
