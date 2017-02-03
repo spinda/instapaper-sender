@@ -1,0 +1,15 @@
+{
+  "http": {
+    "port": 3507
+  },
+  "smtp": {
+    "host": "example.com",
+    "port": 465,
+    "username": "alice@example.com",
+    "password": "sekret",
+    "from": "alice@example.com"
+  },
+  "instapaper": {
+    "email": "readlater.jwnkjdwnwkdw@instapaper.com"
+  }
+}
